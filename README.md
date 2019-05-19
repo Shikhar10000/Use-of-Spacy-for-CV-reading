@@ -39,14 +39,23 @@ and run resumeparser.py
   you can modify this function to modify what the model is used to recognise
   
   '''
+  
   def extract_name(string):
+  
     r1 = string
+    
     nlp = spacy.load('my_model')
+    
     doc = nlp(r1)
+    
     for ent in doc.ents:
+    
         if(ent.label_ == 'Name'):
+        
             print(ent.text)
+            
             break
+            
   '''
 
 Pre trained model entity list:-
