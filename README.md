@@ -40,21 +40,22 @@ and run resumeparser.py
   
   '''
   
-  def extract_name(string):
   
-    r1 = string
+    def extract_name(string):
+  
+     r1 = string
     
-    nlp = spacy.load('my_model')
+     nlp = spacy.load('my_model')
     
-    doc = nlp(r1)
+      doc = nlp(r1)
     
-    for ent in doc.ents:
+      for ent in doc.ents:
     
-        if(ent.label_ == 'Name'):
+         if(ent.label_ == 'Name'):
         
-            print(ent.text)
+             print(ent.text)
             
-            break
+              break
             
   '''
 
