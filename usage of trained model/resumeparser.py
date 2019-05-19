@@ -40,7 +40,7 @@ def extract_name(string):
     nlp = spacy.load('my_model')
     doc = nlp(r1)
     for ent in doc.ents:
-        if(ent.label_ == 'Email Address'):
+        if(ent.label_ == 'Name'):
             print(ent.text)
             break
 
