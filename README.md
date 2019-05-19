@@ -50,14 +50,25 @@ and run resumeparser.py
   '''
 
 Pre trained model entity list:-
+
 1.Collage Name
+
 2.Degree
+
 3.Location
+
 4.Companies worked at 
+
 5.Email Addrress
+
 6.Skills
+
 7.Graduation Year
+
 8.Designation
+
 9.Email Address
+
 10.Name
+
 
