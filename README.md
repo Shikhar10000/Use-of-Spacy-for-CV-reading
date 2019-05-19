@@ -1,10 +1,6 @@
 # Use-of-Spacy-for-CV-reading
-<<<<<<< HEAD
 
-=======
 This repo  aims to provide a single place to help understand the usage of SpaCy for training and testing Custom Named Entity Recognizer, for identifying different entities in a resume (CV parser)
-
->>>>>>> 9a913297d6b31dd7e83f8515776406452b1469af
 
 
 # Requirments
