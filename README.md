@@ -1,5 +1,5 @@
 # Use-of-Spacy-for-CV-reading
-This repo  aims to provide a single place to help understand training and usage of SpaCy for NER and while doing tha making a CV phaser
+This repo  aims to provide a single place to help understand training and usage of SpaCy for NER and while doing that making a CV phaser
 
 
 
